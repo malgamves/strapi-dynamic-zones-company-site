@@ -1,0 +1,6 @@
+overwrite: true
+schema: "http://127.0.0.1:1337/graphql"
+generates:
+  ./fragmentTypes.json:
+    plugins:
+      - "fragment-matcher"

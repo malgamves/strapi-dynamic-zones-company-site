@@ -1,0 +1,309 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "Morph",
+        "possibleTypes": [
+          {
+            "name": "UsersPermissionsMe"
+          },
+          {
+            "name": "UsersPermissionsMeRole"
+          },
+          {
+            "name": "UsersPermissionsLoginPayload"
+          },
+          {
+            "name": "ForgotPassword"
+          },
+          {
+            "name": "BlogPost"
+          },
+          {
+            "name": "BlogPostConnection"
+          },
+          {
+            "name": "BlogPostAggregator"
+          },
+          {
+            "name": "BlogPostGroupBy"
+          },
+          {
+            "name": "BlogPostConnectionId"
+          },
+          {
+            "name": "BlogPostConnectionCreated_at"
+          },
+          {
+            "name": "BlogPostConnectionUpdated_at"
+          },
+          {
+            "name": "BlogPostConnectionTitle"
+          },
+          {
+            "name": "BlogPostConnectionCover"
+          },
+          {
+            "name": "createBlogPostPayload"
+          },
+          {
+            "name": "updateBlogPostPayload"
+          },
+          {
+            "name": "deleteBlogPostPayload"
+          },
+          {
+            "name": "Pages"
+          },
+          {
+            "name": "PagesConnection"
+          },
+          {
+            "name": "PagesAggregator"
+          },
+          {
+            "name": "PagesGroupBy"
+          },
+          {
+            "name": "PagesConnectionId"
+          },
+          {
+            "name": "PagesConnectionCreated_at"
+          },
+          {
+            "name": "PagesConnectionUpdated_at"
+          },
+          {
+            "name": "PagesConnectionTitle"
+          },
+          {
+            "name": "PagesConnectionDescription"
+          },
+          {
+            "name": "createPagePayload"
+          },
+          {
+            "name": "updatePagePayload"
+          },
+          {
+            "name": "deletePagePayload"
+          },
+          {
+            "name": "UploadFile"
+          },
+          {
+            "name": "UploadFileConnection"
+          },
+          {
+            "name": "UploadFileAggregator"
+          },
+          {
+            "name": "UploadFileAggregatorSum"
+          },
+          {
+            "name": "UploadFileAggregatorAvg"
+          },
+          {
+            "name": "UploadFileAggregatorMin"
+          },
+          {
+            "name": "UploadFileAggregatorMax"
+          },
+          {
+            "name": "UploadFileGroupBy"
+          },
+          {
+            "name": "UploadFileConnectionId"
+          },
+          {
+            "name": "UploadFileConnectionCreated_at"
+          },
+          {
+            "name": "UploadFileConnectionUpdated_at"
+          },
+          {
+            "name": "UploadFileConnectionName"
+          },
+          {
+            "name": "UploadFileConnectionAlternativeText"
+          },
+          {
+            "name": "UploadFileConnectionCaption"
+          },
+          {
+            "name": "UploadFileConnectionWidth"
+          },
+          {
+            "name": "UploadFileConnectionHeight"
+          },
+          {
+            "name": "UploadFileConnectionFormats"
+          },
+          {
+            "name": "UploadFileConnectionHash"
+          },
+          {
+            "name": "UploadFileConnectionExt"
+          },
+          {
+            "name": "UploadFileConnectionMime"
+          },
+          {
+            "name": "UploadFileConnectionSize"
+          },
+          {
+            "name": "UploadFileConnectionUrl"
+          },
+          {
+            "name": "UploadFileConnectionPreviewUrl"
+          },
+          {
+            "name": "UploadFileConnectionProvider"
+          },
+          {
+            "name": "UploadFileConnectionProvider_metadata"
+          },
+          {
+            "name": "UsersPermissionsPermission"
+          },
+          {
+            "name": "UsersPermissionsRole"
+          },
+          {
+            "name": "UsersPermissionsRoleConnection"
+          },
+          {
+            "name": "UsersPermissionsRoleAggregator"
+          },
+          {
+            "name": "UsersPermissionsRoleGroupBy"
+          },
+          {
+            "name": "UsersPermissionsRoleConnectionId"
+          },
+          {
+            "name": "UsersPermissionsRoleConnectionName"
+          },
+          {
+            "name": "UsersPermissionsRoleConnectionDescription"
+          },
+          {
+            "name": "UsersPermissionsRoleConnectionType"
+          },
+          {
+            "name": "createRolePayload"
+          },
+          {
+            "name": "updateRolePayload"
+          },
+          {
+            "name": "deleteRolePayload"
+          },
+          {
+            "name": "UsersPermissionsUser"
+          },
+          {
+            "name": "UsersPermissionsUserConnection"
+          },
+          {
+            "name": "UsersPermissionsUserAggregator"
+          },
+          {
+            "name": "UsersPermissionsUserGroupBy"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionId"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionCreated_at"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionUpdated_at"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionUsername"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionEmail"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionProvider"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionConfirmed"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionBlocked"
+          },
+          {
+            "name": "UsersPermissionsUserConnectionRole"
+          },
+          {
+            "name": "createUserPayload"
+          },
+          {
+            "name": "updateUserPayload"
+          },
+          {
+            "name": "deleteUserPayload"
+          },
+          {
+            "name": "ComponentBlogMeta"
+          },
+          {
+            "name": "ComponentBlogQuote"
+          },
+          {
+            "name": "ComponentBlogRichText"
+          },
+          {
+            "name": "ComponentBlogSlider"
+          },
+          {
+            "name": "ComponentNestedSlide"
+          },
+          {
+            "name": "ComponentPostImage"
+          },
+          {
+            "name": "ComponentPostQuote"
+          },
+          {
+            "name": "ComponentPostRichText"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PagesPageZoneDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentPostImage"
+          },
+          {
+            "name": "ComponentPostQuote"
+          },
+          {
+            "name": "ComponentPostRichText"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "BlogPostContentDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentBlogQuote"
+          },
+          {
+            "name": "ComponentBlogSlider"
+          },
+          {
+            "name": "ComponentBlogRichText"
+          }
+        ]
+      }
+    ]
+  }
+}

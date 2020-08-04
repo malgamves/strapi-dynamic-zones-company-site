@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_post_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "quote-right"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "quoter": {
+      "type": "text"
+    }
+  }
+}

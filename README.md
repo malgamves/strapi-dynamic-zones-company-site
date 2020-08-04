@@ -9,7 +9,7 @@ It is built with Nuxt and Strapi. Feel free to fork, edit and customise it for y
 
 ## Features
 - Minimal design 
-- Page prefetching
+- Dynamic Zones for modular content
 - GraphQL first approach
 
 ## Content Model

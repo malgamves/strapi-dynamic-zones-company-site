@@ -5,7 +5,7 @@ This application helps you get started building a company website with modular c
 That means you can make changes and add components in your Strapi backend without having to change your frontend code. 
 It is built with Nuxt and Strapi. Feel free to fork, edit and customise it for your own use.
 
-
+![Screenshot](https://github.com/malgamves/strapi-dynamic-zones-company-site/blob/master/screenshot.png)
 
 ## Features
 - Minimal design 

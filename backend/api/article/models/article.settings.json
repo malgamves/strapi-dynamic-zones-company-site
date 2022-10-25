@@ -1,12 +1,15 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "articles",
   "info": {
-    "name": "article"
+    "name": "article",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -21,10 +24,6 @@
       "model": "file",
       "via": "related",
       "plugin": "upload",
-      "required": true
-    },
-    "published_at": {
-      "type": "date",
       "required": true
     },
     "category": {

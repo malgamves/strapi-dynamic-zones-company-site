@@ -18,9 +18,11 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "@babel/runtime-corejs3": "^7.19.6",
     "@graphql-codegen/cli": "1.13.5",
     "@graphql-codegen/fragment-matcher": "^1.13.5",
     "@graphql-codegen/introspection": "1.13.5",
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "core-js": "3"
   }
 }

@@ -19,7 +19,7 @@
     "pg": "^8.0.3",
     "rimraf": "^3.0.1",
     "sqlite3": "latest",
-    "strapi": "3.6.9",
+    "strapi": "3.6.10",
     "strapi-admin": "3.6.9",
     "strapi-connector-bookshelf": "3.6.9",
     "strapi-plugin-content-manager": "3.6.9",

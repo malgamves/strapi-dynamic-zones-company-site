@@ -15,7 +15,7 @@
 
         <!-- Displays all Images -->
         <div class="sub-text" v-if="zone.__typename === 'ComponentPostImage'">
-          <img :src="`'http://localhost:1337/graphql'+zone.image.url`" />
+          <img :src="zone.image.url" />
           <p class="sub-text hero-subtitle">{{ zone.caption }}</p>
         </div>
       </div>

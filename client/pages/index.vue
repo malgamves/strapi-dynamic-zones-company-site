@@ -1,48 +1,24 @@
 <template>
-  <div>
-    <Header />
-    <Hero :title="title" :content="pages" />
-    <ContentGrid :title="title" :content="pages" />
-    <Footer />
+  <div class="layout">
+    <header />
+    <hero :title="title" :content="pages" />
+    <content-grid :title="title" :content="pages" />
+    <footer />
   </div>
 </template>
 
+<script setup>
+import { contentQuery } from "~/query/content"
 
-<script>
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
-import Hero from "@/components/Hero.vue"
-import ContentGrid from "@/components/ContentGrid"
-//import { contentQuery } from "~/graphql/queries/content"
+const graphql = useStrapiGraphQL()
+const title = "Value"
 
-export default {
-  components: {
-    Header,
-    ContentGrid,
-    Footer,
-    Hero,
-    
-  },
-  data() {
-    return {
-      pages:[], //query result
-      title: "Team" //page title
-    };
-  },
-  // apollo: {
-  //   pages: {
-  //     query: contentQuery,
-  //     variables () {
-  //       return {
-  //         Page: this.title
-  //       }
-  //     },
-  //     prefetch: true
-  //   }
-  // }
-}
+const result = await graphql(contentQuery, { "Page": title })
+
+const pages = result.data.pages.data[0].attributes
+console.log(pages.pageZone[0].image.data.attributes.url)
+
 </script>
-
 
 
 <style>
@@ -75,7 +51,7 @@ h1 {
   padding: 0;
 }
 .layout.sticky-header {
-  padding: 6rem 0 0 0;
+  padding: 0 0 0 0;
 }
 .container {
   max-width: 1200px;

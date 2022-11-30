@@ -12,7 +12,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import Hero from "@/components/Hero.vue"
 import ContentGrid from "@/components/ContentGrid"
-import { contentQuery } from "~/graphql/queries/content"
+//import { contentQuery } from "~/graphql/queries/content"
 
 export default {
   components: {
@@ -28,17 +28,17 @@ export default {
       title: "Testimonials" //page title
     };
   },
-  apollo: {
-    pages: {
-      query: contentQuery,
-      variables () {
-        return {
-          Page: this.title
-        }
-      },
-      prefetch: true
-    }
-  }
+  // apollo: {
+  //   pages: {
+  //     query: contentQuery,
+  //     variables () {
+  //       return {
+  //         Page: this.title
+  //       }
+  //     },
+  //     prefetch: true
+  //   }
+  // }
 }
 </script>
 

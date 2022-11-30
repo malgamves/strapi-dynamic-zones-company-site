@@ -1,9 +1,9 @@
-import gql from "graphql-tag";
+//import gql from "graphql-tag";
 
 
 // Main query to get page specific content
 
-export const contentQueryV3 = gql`
+export const contentQueryV3 = `
 query Pages($Page: String!) {
   pages: pages(where: { Title: $Page }) {
     Title
@@ -26,7 +26,7 @@ query Pages($Page: String!) {
 }
 }
 `
-export const contentQuery = gql`
+export const contentQuery = `
 query Pages($Page: String!){
   pages: pages(filters: { Title: { eq: $Page  }}) {
     data {
@@ -34,6 +34,7 @@ query Pages($Page: String!){
         Title
         Description
         pageZone {
+          __typename
           ... on ComponentPostImage {
             caption
             image {

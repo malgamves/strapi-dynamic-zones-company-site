@@ -2,7 +2,6 @@
 <div>
     <footer class="footer">
         <div class="container">
-            <h1>this should show</h1>
             <span v-html="settings.footerText" /> <span> Thanks to <a href="https://unsplash.com/@wocintechchat">Christina</a>,<a href="https://unsplash.com/@galina88"> Galina </a>and <a href="https://unsplash.com/@bkotynski">Bethany</a> for the images.</span>
         </div>
     </footer>

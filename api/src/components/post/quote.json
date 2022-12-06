@@ -2,15 +2,16 @@
   "collectionName": "components_post_quotes",
   "info": {
     "displayName": "Quote",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "quote": {
-      "type": "string"
+      "type": "text"
     },
     "quoter": {
-      "type": "text"
+      "type": "string"
     }
   }
 }

@@ -1,25 +1,31 @@
 <template>
-    <header class="header">
+    <div class="header">
         <div class="container">
             <div class="left">
-                <nuxt-link to="/" class="home-link">
+                <NuxtLink to="/" class="home-link">
                     <b>Company X </b>
-                </nuxt-link>
+                </NuxtLink>
             </div>
             <nav class="nav right">
-                <nuxt-link class="nav__link" to="/about">About Us</nuxt-link>
-                <nuxt-link class="nav__link" to="/team">Team</nuxt-link>
-                <nuxt-link class="nav__link" to="/testimonials">Testimonials</nuxt-link>
+                <NuxtLink class="nav__link" to="/about">About Us</NuxtLink>
+                <NuxtLink class="nav__link" to="/team">Team</NuxtLink>
+                <NuxtLink class="nav__link" to="/testimonials">Testimonials</NuxtLink>
 
             </nav>
         </div>
-    </header>
+    </div>
 </template>
 
 <script>
 export default {
-}
+  
+};
 </script>
+
+<script setup>
+        
+</script>
+
 
 <style scoped>
 .header {

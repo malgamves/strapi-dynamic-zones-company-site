@@ -1,9 +1,6 @@
 <template>
   <div>
     <NuxtPage />
-    <p>{{restaurant}} </p>
-    <br>
-    <p>{{page}}</p>
   </div>
 </template>
 

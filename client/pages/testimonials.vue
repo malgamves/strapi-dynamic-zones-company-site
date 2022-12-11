@@ -8,15 +8,30 @@
 </template>
 
 <script setup>
+
 import { contentQuery } from "~/query/content"
 
+const route = useRoute()
 const graphql = useStrapiGraphQL()
 const title = "Testimonial"
+const pages = ref()
 
-const result = await graphql(contentQuery, { "Page": title })
+  
+watch (route.params.id, 
+async () => {
+  const result = await graphql(contentQuery, { "Page": title })
 
-const pages = result.data.pages.data[0].attributes
-console.log(pages.pageZone[0].image.data.attributes.url)
+  pages = result.data.pages.data[0].attributes
+})
+  
+
+
+// const result = await graphql(contentQuery, { "Page": title })
+
+// const pages = result.data.pages.data[0].attributes
+//watch(() => queryString.value, () => refresh() );
+//window.location.reload(true)
+//route.go()
 
 </script>
 

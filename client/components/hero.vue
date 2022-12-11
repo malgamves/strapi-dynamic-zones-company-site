@@ -2,12 +2,10 @@
   <div class="hero">
 
     <!-- Displays page Title and Description -->
-    <!-- <div v-for="contents in content" :key="contents.id"> -->
 
       <h1 class="hero-title" v-html="content.Title" />
       <h2 class="hero-subtitle" v-html="content.Description" />
 
-    <!-- </div> -->
 
   </div>
 </template>

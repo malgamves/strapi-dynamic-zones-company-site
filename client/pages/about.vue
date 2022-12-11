@@ -12,11 +12,18 @@ import { contentQuery } from "~/query/content"
 
 const graphql = useStrapiGraphQL()
 const title = "About"
+// let pageRes = ''
+
+
+
+// const { data, pending, refresh, error } = await useAsyncData('pagesRes',
+//   () => pagesRes = graphql(contentQuery, { "Page": title })
+// )
 
 const result = await graphql(contentQuery, { "Page": title })
-
+//console.log(pageRes)
+//console.log(data)
 const pages = result.data.pages.data[0].attributes
-console.log(pages.pageZone[0].image.data.attributes.url)
 
 </script>
 

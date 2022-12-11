@@ -16,7 +16,6 @@ const title = "Value"
 const result = await graphql(contentQuery, { "Page": title })
 
 const pages = result.data.pages.data[0].attributes
-console.log(pages.pageZone[0].image.data.attributes.url)
 
 </script>
 

@@ -1,6 +1,5 @@
 <template>
   <div class="hero">
-    <!-- <div v-for="contents in content" :key="contents.id"> -->
       <div v-for="zone in content.pageZone" :key="zone.id" class="project">
         <!-- Display all richText here -->
         <div class="sub-text" v-if="zone.__typename === 'ComponentPostRichText'">
@@ -20,7 +19,6 @@
         </div>
       </div>
     </div>
-  <!-- </div> -->
 </template>
 
 <script setup>

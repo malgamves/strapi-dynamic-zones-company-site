@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_post_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

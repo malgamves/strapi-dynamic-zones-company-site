@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_post_rich_texts",
+  "info": {
+    "displayName": "RichText",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "richtext"
+    }
+  }
+}

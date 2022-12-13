@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_post_quotes",
+  "info": {
+    "displayName": "Quote",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "quoter": {
+      "type": "string"
+    }
+  }
+}

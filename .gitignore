@@ -1,1 +1,4 @@
 vscode
+.env
+.yarn
+.DS_Store

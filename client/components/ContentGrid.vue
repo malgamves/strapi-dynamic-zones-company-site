@@ -14,7 +14,7 @@
 
         <!-- Displays all Images -->
         <div class="sub-text" v-if="zone.__typename === 'ComponentPostImage'">
-          <img :src="zone.image.data.attributes.url" />
+          <nuxt-img :src="zone.image.data.attributes.url" alt="image of company culture"/>
           <p class="sub-text hero-subtitle">{{ zone.caption }}</p>
         </div>
       </div>
@@ -22,6 +22,12 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'The Company X',
+  meta: [
+    { name: 'description', content: 'Our amazing Company Site.' }
+  ]
+})
 
 </script>
 

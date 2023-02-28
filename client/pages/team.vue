@@ -1,9 +1,7 @@
 <template>
   <div class="layout">
-    <NavBar />
     <Hero :title="title" :content="pages" />
     <ContentGrid :title="title" :content="pages" />
-    <Footer />
   </div>
 </template>
 

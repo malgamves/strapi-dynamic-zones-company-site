@@ -2,11 +2,8 @@
   <div class="hero">
 
     <!-- Displays page Title and Description -->
-
       <h1 class="hero-title" v-html="content.Title" />
       <h2 class="hero-subtitle" v-html="content.Description" />
-
-
   </div>
 </template>
 

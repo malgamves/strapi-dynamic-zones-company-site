@@ -4,11 +4,13 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "cleanup": "nuxt cleanup",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "@nuxtjs/strapi": "^1.6.3",
-    "nuxt": "3.0.0"
+    "nuxt": "3.2.2"
   }
 }

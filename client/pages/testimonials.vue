@@ -1,19 +1,15 @@
 <template>
   <div class="layout">
-    <NavBar />
     <Hero :title="title" :content="pages" />
     <ContentGrid :title="title" :content="pages" />
-    <Footer />
   </div>
 </template>
 
 <script setup>
-
 import { contentQuery } from "~/query/content"
 
 const graphql = useStrapiGraphQL()
 const title = "Testimonial"
-
 
 const result = await graphql(contentQuery, { "Page": title })
 const pages = result.data.pages.data[0].attributes

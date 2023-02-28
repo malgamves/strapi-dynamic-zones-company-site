@@ -7501,7 +7501,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -9913,9 +9913,9 @@ __metadata:
   linkType: hard
 
 "luxon@npm:^1.26.0":
-  version: 1.28.0
-  resolution: "luxon@npm:1.28.0"
-  checksum: 5250cb9f138b6048eeb0b3a9044a4ac994d0058f680c72a0da4b6aeaec8612460385639cba2b1052ef6d5564879e9ed144d686f26d9d97b38ab920d82e18281c
+  version: 1.28.1
+  resolution: "luxon@npm:1.28.1"
+  checksum: 2c62999adea79645fd1e931d685f61aeb33eda7f39fbf79b84261a233b62f9590f48336654ee9efd405848bd9e13dc7fe087c701b7126187201a88998dc68b04
   languageName: node
   linkType: hard
 
@@ -12588,7 +12588,7 @@ __metadata:
 
 "resolve@patch:resolve@1.20.0#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
@@ -12598,7 +12598,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.9.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -14039,7 +14039,7 @@ __metadata:
 
 "typescript@patch:typescript@4.6.2#~builtin<compat/typescript>":
   version: 4.6.2
-  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=5d3a66"
+  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver

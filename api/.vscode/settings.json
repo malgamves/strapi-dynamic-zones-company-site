@@ -1,7 +1,7 @@
 {
     "yaml.schemas": {
         "https://yarnpkg.com/configuration/yarnrc.json": "file:///d%3A/Strapi/strapi-dynamic-zones-company-site/api/.yarnrc.yml",
-        "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json": "docker://019380d01c313b26a51ef09da75b512f4200f0333bce68140ba2f81af3c0d774/root/k8s/demo/web-app.yml?fileType%3D1%26ctime%3D0%26mtime%3D0%26size%3D0%26containerOS%3Dlinux%26path%3D%252Froot%252Fk8s%252Fdemo%252Fweb-app.yml"
+        "https://json.schemastore.org/prometheus.rules.test.json": "docker://019380d01c313b26a51ef09da75b512f4200f0333bce68140ba2f81af3c0d774/root/k8s/demo/web-app.yml?fileType%3D1%26ctime%3D0%26mtime%3D0%26size%3D0%26containerOS%3Dlinux%26path%3D%252Froot%252Fk8s%252Fdemo%252Fweb-app.yml"
     },
     "compile-hero.disable-compile-files-on-did-save-code": false
 }

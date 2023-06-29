@@ -16,7 +16,8 @@
     "@strapi/plugin-users-permissions": "4.11.3",
     "@strapi/strapi": "4.11.3",
     "better-sqlite3": "7.4.6",
-    "crypto": "^1.0.1"
+    "crypto": "^1.0.1",
+    "sharp": "^0.32.1"
   },
   "author": {
     "name": "A Strapi developer"

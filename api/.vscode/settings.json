@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://yarnpkg.com/configuration/yarnrc.json": "file:///d%3A/Strapi/strapi-dynamic-zones-company-site/api/.yarnrc.yml"
+    },
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}

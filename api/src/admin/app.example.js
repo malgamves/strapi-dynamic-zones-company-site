@@ -37,3 +37,4 @@ export default {
   config,
   bootstrap,
 };
+ENV_PATH=".env"

@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "redhat.vscode-openshift-connector"
+        "redhat.vscode-openshift-connector",
+        "redhat.vscode-rsp-ui"
     ]
 }

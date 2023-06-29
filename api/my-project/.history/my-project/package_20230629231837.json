@@ -7,8 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "cs": "config-sync"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {

@@ -4,12 +4,14 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "prebuild": "cd src/plugins/<plugin name> && npm run build",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
+    "@amicaldo/strapi-google-maps": "^1.0.2",
     "@graphql-tools/utils": "^10.0.1",
     "@strapi/plugin-graphql": "4.11.3",
     "@strapi/plugin-i18n": "4.11.3",

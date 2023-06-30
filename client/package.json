@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "@nuxtjs/strapi": "^1.6.3",
+    "@types/node": "^20.3.2",
     "nuxt": "3.2.2"
   }
 }
